@@ -1,5 +1,48 @@
-.relative {
+* {box-sizing: border-box;}
+
+.first_element {
+    position: relative;
     width: 500px;
     height: 250px;
-    
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #fd704e;
+    background-color: #fafafa;
+    text-align: center;
+    left: 100px;
+    font-size: 18px;
+    font-family: times new roman, times, minion pro;
+    line-height: 28px;
+}
+
+.second_element {
+    position: static;
+    width: 600px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #0925fc;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    font-family: times new roman, times, minion pro;
+    line-height: 28px;
+}
+
+.relative-parent {
+    position: relative;
+    border: 2px solid blue;
+    width: 1000px;
+    height: 200px;
+    border: 2px solid #098505;
+    font-size: 14px;
+}
+
+.absolute {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    border: 1px solid #f90f1a;
+    top: 10px;
+    right: 10px;
 }
